@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <!--Meta Name-->
     <meta charset="UTF-8">
@@ -41,8 +41,8 @@
                                 <li class="nav-item"><a class="nav-link"  href="#">উত্তর আমেরিকা</a> </li>
                             </ul>
                             <ul class="navbar-nav text-center manu-right">
-                                <li class="nav-item"><a class="nav-link"  href="#"><i class="fa fa-bars"></i></a> </li>
-                                <li class="nav-item"><a class="nav-link color"  href="#">সব</a> </li>
+                                <li class="nav-item"><a class="nav-link"  href="#" data-target="#menuModal-index" data-toggle="modal"><i class="fa fa-bars"></i></a> </li>
+                                <li class="nav-item"><a class="nav-link color"  href="#" data-target="#menuModal-index" data-toggle="modal">সব</a> </li>
                                 <li class="nav-item"><a class="nav-link color"  href="#">|</a> </li>
                                 <li class="nav-item"><a class="nav-link english"  href="#">English</a> </li>
                                 <li class="nav-item"><a class="nav-link"  href="#"><i class="fa fa-user"></i></a> </li>
@@ -77,17 +77,22 @@
             </div>
         </div>
     </div><!--HEADER TIMER  END-->
-    <div class="container-fluid" >
+    <div class="container-fluid single-post-link" >
         <div class="container" >
-            <div class="col-lg-5 col-md-6">
-                <div class="card card-2">
-                    <img class="card-img" src="images/img-1.jpg">
-                    <div class="card-img-overlay">
-                        <h2>যেদিন নাটক হলো মাঠের বাইরে</h2>
-                        <a href="#">খেলা</a>
+            <div class="col-lg-5 col-md-6 pr-4 ">
+                <a class="display-block" target="_blank" href="single-post.html">
+                    <div class="full-card">
+                        <img class="card-img" src="images/img-1.jpg">
+                        <div class="card-body-own-2">
+                                <h2>যেদিন নাটক হলো মাঠের বাইরে</h2>
+                                <a class="play" href="#">খেলা</a>
+                        </div>
                     </div>
-                </div>
+
+                </a>
             </div>
+            <!--</a>-->
+
             <div class="col-lg-3 col-md-6">
                 <div class="col-lg-12">
                     <div class="card card-3">
@@ -897,7 +902,7 @@
     </div>
 </div><!--JIBONJAPON SECTION END-->
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark"> <!--FOOTER START-->
         <div class="container">
             <div class="row">
                 <div class=" col-xl-12 big-footer">
@@ -994,7 +999,110 @@
 
 
 
+<!---->
+    <div class="modal fade" id="menuModal-index">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body modal-body-own">
+                    <!--MDNU MODAL-->
 
+                    <nav class="navbar navbar-expand-xl fixed-top border-botton-own " >
+                        <div class="col-lg-2 modal-logo">
+                            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                        </div>
+                        <div class="col-lg-7"> </div>
+                        <div class="col-lg-3 modal-menu">
+                            <div class="collapse navbar-collapse  ">
+                                <div class="text-center">
+                                    <ul class="navbar-nav text-center">
+                                        <li class="nav-item"><a class="nav-link"  href="#" data-target="#menuModal-index" data-toggle="modal" >&times;</a> </li>
+                                        <li class="nav-item"><a class="nav-link color"  href="#" data-target="#menuModal-index" data-toggle="modal" >সব</a> </li>
+                                        <li class="nav-item"><a class="nav-link color"  href="#">|</a> </li>
+                                        <li class="nav-item"><a class="nav-link english"  href="#">English</a> </li>
+                                        <li class="nav-item"><a class="nav-link"  href="#"><i class="fa fa-user"></i></a> </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-target="#myModal" data-toggle="modal"  href="#">
+                                                <i class="fa fa-search" ></i></a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="#"> <i class="fa fa-thumbs-up"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+
+                    <!--MENU MODAL END -->
+                    <div class="container-fluid"> <!--MODAL FOOTER START-->
+                        <div class="container">
+                            <div class="row">
+                                <div class=" col-xl-12 big-footer">
+                                    <div class="col-lg-10">
+                                        <ul class="footer-menu">
+                                            <li><a href="#">প্রচ্ছদ</a></li>
+                                            <li><a href="#">বাংলাদেশ</a></li>
+                                            <li><a href="#">আন্তর্জাতিক</a></li>
+                                            <li><a href="#">অর্থনীতি</a></li>
+                                            <li><a href="#">খেলা</a></li>
+                                            <li><a href="#">মতামত</a></li>
+                                            <li><a href="#">বিনোদন</a></li>
+                                            <li><a href="#">ফিচার</a></li>
+                                            <li><a href="#">জীবনযাপন</a></li>
+                                            <li><a href="#">বিজ্ঞান ও প্রযুক্তি</a></li>
+                                            <li><a href="#">রস+আলো</a></li>
+                                            <li><a href="#">পাঁচমিশালি</a></li>
+                                            <li><a href="#" >আমরা</a></li>
+                                            <li><a href="#">শিল্প ও সাহিত্য</a></li>
+                                            <li><a href="#">শিক্ষা</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <nav class="footer-right-menu">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-camera"></i>          ছবি</a></li>
+                                                <li> <a href="#"><i class="fa fa-video-camera"></i>   ভিডিও</a></li>
+                                                <li><a href="#"><i class="fa fa-file-archive-o"></i>  আর্কাইভ</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <hr/>
+
+                                <div class="col-xl-12 big-footer-bottom">
+                                    <div class="col-lg-7">
+                                        <nav class="footer-bottom">
+                                            <ul>
+                                                <li><a href="#">ই-পেপার</a></li>
+                                                <li><a href="#">বিজ্ঞাপন</a></li>
+                                                <li><a href="#">সার্কুলেশন</a></li>
+                                                <li><a href="#">পবিত্র হজ</a></li>
+                                                <li><a href="#">দূর পরবাস</a></li>
+                                                <li><a href="#">উত্তর আমেরিকা</a></li>
+                                            </ul>
+                                        </nav>
+                                        <nav>
+                                            <ul class="img-text-menu">
+                                                <li><a href="#"><img src="images/menu-1.png"> <span>২২২১</span></a></li>
+                                                <li><a href="#"><img src="images/menu-2.png"> <span>ট্রাস্ট</span></a></li>
+                                                <li><a href="#"><img src="images/menu-3.png"> <span>প্রতিচিন্তা</span></a></li>
+                                                <li><a href="#"><img src="images/menu-4.png"> <span>চাকরি ডটকম</span></a></li>
+                                                <li><a href="#"><img src="images/menu-5.png"> <span>abc রেডিও</span></a></li>
+                                                <li><a href="#"><img src="images/menu-6.png"> </a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="col-lg-5 specila-class">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--BIG FOOTER END-->
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--MODAL-->

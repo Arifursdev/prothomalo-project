@@ -67,6 +67,8 @@ body {
 .navbar .menu-left .nav-link{
     border-bottom: 4px solid transparent;
 }
+
+
 .navbar .menu-left .nav-link:hover{
     background: #EFEFEC;
     border-bottom: 4px solid #D84315;
@@ -146,6 +148,26 @@ body {
     padding: 0 10px;
 }
 /*========================CARD TWO START==================================*/
+.full-card {
+    position: relative;
+}
+.card-body-own-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+}
+.card-body-own-2 h2{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-left: none !important;
+}
+.play{
+    color: #FFFFFF !important;
+    border-left: 2px solid #e35c30;
+    padding-left: 3px;
+}
+
 .card-2 {
     padding: 20px 20px 20px 7px;
     border: none;
@@ -852,6 +874,402 @@ footer p{
 
 
 }
+
+
+
+/*===================MENU MODAL===================*/
+#menuModal-index .modal-dialog, #myModal .modal-dialog  {
+    max-width: 100%;
+    margin: 0px auto;
+
+}
+.modal-body-own {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 60px 0 0 0;
+}
+#menuModal .modal-body {
+    border-top: 1px solid gray;
+    color: #000000;
+}
+.modal-menu {
+    padding-left: 20px;
+}
+.border-botton-own {
+    border-bottom: 1px solid gray;
+    width: 94%;
+    margin: auto;
+}
+#menuModal-index {
+    padding-right: 0 !important;
+}
+
+#menuModal-index  .footer-menu li a, .footer-bottom ul li a , #menuModal-index  .footer-right-menu li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: normal;
+}
+#menuModal-index ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+    color: #000000;
+    font-weight: normal;
+}
+
+#menuModal-index ul li a span{
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    color: #000000;
+}
+/*============================SINGLE - POST -PAGE===========================================*/
+.bg-light-own .navbar{
+    background: transparent; !important;
+    z-index: 2;
+}
+.parliament {
+    background-image: url("images/shonshod-babon.png");
+    background-size: 100%;
+    min-height: 108px;
+    margin-top: 64px !important;
+    background-repeat: no-repeat;
+}
+
+.position-absolute {
+    top: 124px;
+    left: 0px;
+}
+
+/*===================PARLIAMENT END=====================================*/
+.slide-one-postpage{
+    animation-name: mosabber;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    background-size: 100%;
+    height: 90px;
+    max-width: 970px;
+    width: 100%;
+}
+.parliament-logo {
+    font-size: 32px;
+    line-height: 46px;
+    padding-left: 10px;
+    font-weight: normal;
+    padding-top: 5px;
+    margin: 0;
+}
+.parliament-logo a {
+    color: #333333;
+    text-decoration: none;
+}
+.bg-light-own {
+    background: rgba(0,0,0,0.2);
+}
+.parliament-menu li a {
+    line-height: 44px;
+    padding: 0 10px;
+    font-size: 13px;
+    border-bottom: 0 none;
+    color: #000;
+    border-bottom: 5px solid transparent;
+}
+.parliament-menu li a:hover {
+    border-bottom: 4px solid #CC0000;
+}
+
+/*==========================NEWS TRICKER========================*/
+.news-tricker{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.news-tricker ul li a {
+    padding: 0 2px;
+    color: #666666;
+    text-decoration: none;
+    font-size: 12px;
+}
+/*==========================MANI POST AREA====================*/
+.main-post-area h5 a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-post-area h4{
+    color: #000000;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+    margin: 0;
+}
+.main-post-area p{
+    color: #000000;
+    font-size: 14px;
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+.main-post-area .social-icon,.main-post-area .bangla-fonts{
+    padding-left: 10px;
+}
+.main-post-area .social-icon i{
+    width: 30px;
+    height: 30px;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 4px 0 0 0px;
+    transition: 1s;
+}
+.social-icon-area {
+    padding-bottom: 10px;
+}
+.input-group{
+    padding-left: 10px;
+}
+.main-post-area .social-icon .fa-print{
+    background:  #C0BFC0;
+}
+.main-post-area .social-icon .fa-facebook{
+    background: #3B5998;
+}
+.main-post-area .social-icon .fa-twitter{
+    background: #1EBEF0;
+}
+
+.main-post-area .social-icon .fa-google-plus{
+    background:   #DC4A38;
+}
+
+.main-post-area .social-icon i:hover{
+    background: #0C61C9;
+}
+.bangla-fonts {
+    border: 0;
+    overflow: hidden;
+   padding-left: 10px;
+}
+.main-post-area .bangla-fonts a{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background:  #C0BFC0;
+    color: #000000;
+    padding: 2px 0 0 0px;
+    transition: 1s;
+    display: block;
+    float: left;
+    margin: 0 2px;
+}
+.main-post-area .bangla-fonts a:hover{
+    background: #0A246A;
+    border: none;
+}
+.main-post-area .input-group button {
+    color: #B9BAB4;
+    font-size: 14px;
+    border: 1px solid #CFD0CA !important;
+    border-radius: 0 3px 3px 0;
+}
+
+/*======================== OBAYDUL KADAR AREA ==========================*/
+.obaydul-area h2{
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 0 20px;
+}
+.obaydul-area a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #666666;
+    padding-top: 10px;
+    display: block;
+}
+.obaydul-area p{
+    color: #000000;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 8px 0;
+}
+.more-tag{
+    overflow: hidden;
+}
+.obaydul-area .more-tag a{
+    float: left;
+    text-decoration: none;
+    background:  #E7E8E1;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 0 2px;
+}
+.obaydul-area .more-tag a:nth-child(2){
+    background: transparent;
+    cursor:auto;
+}
+.obaydul-area .social-icon {
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+.obaydul-area .social-icon a {
+    float: left;
+    padding: 0 5px 5px 0;
+}
+
+.obaydul-area .addon-own{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.onion-add img{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+.small-col h4 a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+.small-four-section h3 a{
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+/*================================MONTOBOO SECTION START HERE===================*/
+.montobo-section h3 {
+    color: #424242;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.montobo-section p {
+    font-size: 15px;
+    line-height: 32px;
+    color: #424242;
+}
+.montobo-section .login{
+    text-decoration: none;
+    padding: 5px 10px 0 6px;
+    background: #1E88E5;
+    color: #FFFFFF;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+.montobo-section .select-own{
+    background: #F9F9F9;
+    border-top: 1px solid gray;
+    padding: 10px 0 15px;
+}
+
+.montobo-section select{
+    font-size: 12px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ede6e6;
+}
+.montobo-section .border-bottom h4{
+    padding: 0;
+    margin: 0;
+}
+.montobo-section .border-bottom h4 a {
+    padding-left: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.montobo-section .border-bottom p {
+    padding-left: 5px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.montobo-section{
+    padding-bottom: 70px;
+}
+
+.all-montoboo a{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #616161;
+    font-size: 12px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.all-montoboo a i{
+    padding-right: 5px;
+}
+
+.all-montoboo a:hover{
+    background: #989898;
+}
+.parliament-logo-2 {
+    display: none;
+}
+
+.display-block {
+    display: block;
+    width: 100%;
+    padding-top: 11px;
+}
+.single-post-link a{
+    text-decoration: none;
+}
+.single-post-link .full-card img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*======================MEDIA QUERY================*/
+
+@media all and (max-width: 768px){
+    .parliament-logo {
+        display: none;
+    }
+
+    .parliament-logo-2 {
+        display: block;
+        color: #000000;
+    }
+
+    .bg-light-own{
+        background: #FFFFFF; !important;
+        z-index: 22;
+
+    }
+    .bg-light-own li{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
