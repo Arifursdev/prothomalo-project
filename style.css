@@ -52,19 +52,40 @@ body {
     transition: 0.2s;
 }
 .navbar-brand {
-    padding-left: 45px;
+    padding-left: 40px;
+	margin: 0;
 }
 .navbar-brand img {
     max-width: 195px;
+	width: 100%;
     height: 46px;
+	
+}
+#indexPage {
+    width: 100%;
+}
+#indexPage .navbar-brand{
+    width: 25%
 }
 .navbar .navbar-nav{
     padding-top: 0;
     padding-bottom: 0;
 }
+#myMenu{
+    width: 80%;
+}
+#indexPage .menu-left {
+    width: 70%;
+}
+.menu-left ul{
+    float: right;
+    text-align: right;
+}
 .navbar .navbar-nav .nav-link {
     font-size: 14px;
     color: #232020;
+    opacity: 0.9;
+    letter-spacing: -0.5px;
 }
 .navbar .menu-left .nav-link{
     border-bottom: 4px solid transparent;
@@ -129,6 +150,7 @@ body {
     max-width: 970px;
     width: 100%;
     margin-top: 62px;
+    cursor: pointer;
 }
 
 @keyframes  mosabber{
@@ -138,6 +160,10 @@ body {
 
 }
 /*-------------------ADD SLIDER END-----------------*/
+
+img{
+    cursor: pointer;
+}
 .timebar {
     color: #666D8C;
     font-size: 12px;
@@ -145,6 +171,13 @@ body {
     padding: 15px 0 15px 0px;
     border-bottom: 1px solid;
     margin-left: 7px;
+}
+.timebar a{
+    color: #666D8C;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 15px 0 15px 0px;
+     margin-left: 7px;
 }
 .timebar span {
     padding: 0 10px;
@@ -163,6 +196,12 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     border-left: none !important;
+}
+.full-card:hover h2{
+    color: #E7C107;
+}
+.card-4:hover .card-text-own h4,.card-5:hover .card-text-own h4 {
+    color: #1E88E6;
 }
 .play{
     color: #FFFFFF !important;
@@ -270,12 +309,16 @@ body {
 
 .middle-button {
     margin-bottom: 5px;
+    margin-top: 10px;
 }
 .middle-button a {
+    background-color: #757575;
+    padding: 12px 90px;
+    color: #fff;
     font-size: 18px;
-    padding: 8px 80px;
-    margin-top: 10px;
+    border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 /*=================MIDDLE BUTTON SECTION    END=====================*/
@@ -476,8 +519,11 @@ body {
     font-weight: normal;
     font-weight: 500;
 }
+.play-section h3:hover{
+    color: #1E9EEB;
+}
 .play-text{
-    padding: 10px 30px 105px 10px;
+    padding: 8px 30px 85px 10px;
 }
 .play-section p{
     color: #333333;
@@ -908,7 +954,7 @@ footer p{
     padding-right: 0 !important;
 }
 
-#menuModal-index  .footer-menu li a, .footer-bottom ul li a , #menuModal-index  .footer-right-menu li a{
+#menuModal-index  .footer-menu li a,  #menuModal-index  .footer-right-menu li a{
     display: inline-block;
     text-decoration: none;
     font-size: 16px;
@@ -1236,6 +1282,10 @@ footer p{
 .single-post-link .full-card img{
     width: 100%;
     height: auto;
+}
+
+img:hover{
+    opacity: 0.9;
 }
 /*===============================================
         CATEGORY PAGE CSS START HERE
@@ -1621,8 +1671,50 @@ h5{
     text-align: left;
 }
 
-
-
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+    width: 25%;
+}
+.nav-tabs .nav-item a {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 15px 0;
+}
+a {
+    text-decoration: none;
+}
+.small-four-section .fa-camera{
+    color: #ffffff;
+    background: #343538;
+    width: 35px;
+    height: 32px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 82px;
+    left: 0;
+    text-decoration: none;
+}
+.small-four-section .fa-camera:hover{
+    opacity: 1;
+}
+.footer-bottom ul li a {
+    color: #ffffff;
+}
+#singlePost .navbar-brand{
+    width: 25%;
+}
+#myMenu .menu-left {
+    width: 70%;
+}
+#menuModal-index .footer-menu li a:hover, #menuModal-index .footer-right-menu li a:hover,
+#menuModal-index ul li a:hover,#menuModal-index ul li a span:hover{
+    color: #1e9eeb;
+}
 
 
 
@@ -1649,7 +1741,10 @@ h5{
     .parliament-logo {
         display: none;
     }
+	.navbar-brand {
+		padding-left: 10px;
 
+	}
     .parliament-logo-2 {
         display: block;
         color: #000000;
@@ -1667,8 +1762,26 @@ h5{
         background: #FFFFFF;
         z-index: 3;
     }
+    #indexPage .navbar-brand ,#singlePost .navbar-brand{
+        width: 75%;
+    }
+
+	
 }
 
+@media all and (max-width: 1200px){
+	.fixed-top {
+		position: inherit;
+	
+	}
+	.navbar .navbar-nav.manu-right,#indexPage .menu-left , .navbar-nav,#myMenu .menu-left {
+
+		float: none;
+		width: 100%;
+	}
+
+
+}
 
 
 
